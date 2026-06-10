@@ -1,0 +1,32 @@
+{
+  "skill_name": "brand-audit",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Something feels off with our brand. We've been growing but the brand hasn't kept up. Can you help us figure out what's wrong?",
+      "expected_output": "Should recognize this as a brand audit situation triggered by 'something feels off'. Should ask for brand materials to review (website, social, guidelines). Should conduct the audit across all 6 dimensions. Should produce a scored scorecard. Should list what's working, what's not working, and prioritized recommendations.",
+      "assertions": [
+        "Triggers on 'something feels off' phrasing",
+        "Requests brand materials before auditing",
+        "Audits all 6 dimensions",
+        "Produces a scored scorecard",
+        "Lists strengths specifically",
+        "Lists issues with evidence and impact",
+        "Provides prioritized recommendations (immediate, short-term, long-term)"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "our brand feels outdated",
+      "expected_output": "Should trigger on casual phrasing. Should ask diagnostic questions to understand whether this is a visual identity problem, positioning problem, or both. Should not assume it's just a logo refresh.",
+      "assertions": [
+        "Triggers on casual phrasing",
+        "Asks diagnostic questions",
+        "Does not assume it's purely a visual identity problem",
+        "May reference rebranding skill if deeper change is needed"
+      ],
+      "files": []
+    }
+  ]
+}

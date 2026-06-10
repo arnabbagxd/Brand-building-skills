@@ -1,0 +1,46 @@
+{
+  "skill_name": "brand-naming",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I need a name for my sustainable packaging startup. We help e-commerce brands switch from plastic to compostable packaging. Our target customer is eco-conscious DTC brands.",
+      "expected_output": "Should run Generation Mode. Should ask for any missing context before generating names. Should generate names across multiple naming approaches (descriptive, invented, metaphorical, compound, etc.). Should explain the rationale behind each name. Should include trademark and domain availability notes. Should not generate a random list without logic — each name should have a clear strategic reason.",
+      "assertions": [
+        "Runs Generation Mode",
+        "Gathers missing context before naming",
+        "Generates names across multiple naming styles",
+        "Provides rationale for each name",
+        "Notes trademark/domain considerations",
+        "Names feel relevant to the category and audience",
+        "Does not generate random list without reasoning"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Here are the names we're considering: Verdant, Leafwrap, EcoShell, Packly, Terraveil. Can you evaluate them?",
+      "expected_output": "Should run Evaluation Mode. Should score or evaluate each name across relevant criteria (memorability, distinctiveness, trademark risk, domain availability likelihood, audience fit, category clarity). Should give a clear recommendation on which to move forward with and why. Should not just describe each name — should make a judgment call.",
+      "assertions": [
+        "Runs Evaluation Mode",
+        "Evaluates all 5 names",
+        "Uses clear criteria for evaluation",
+        "Makes a recommendation",
+        "Explains why recommended name is strongest",
+        "Flags any names with obvious trademark or domain risks"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "help me name this brand",
+      "expected_output": "Should trigger on the casual phrase. Should recognize there is no context yet and ask for the minimum needed information: what the brand does, who it's for, and any constraints (naming style, avoid words, existing names considered).",
+      "assertions": [
+        "Triggers on casual phrasing",
+        "Recognizes missing context",
+        "Asks for brand description, audience, and constraints",
+        "Does not generate names without information"
+      ],
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "brandbuilding-skills",
+  "owner": {
+    "name": "Arnab Bag",
+    "url": "https://github.com"
+  },
+  "metadata": {
+    "description": "Brand building skills for AI agents — strategy, naming, identity, voice, positioning, messaging, auditing, and launch",
+    "version": "1.0.0",
+    "repository": "https://github.com/arnabbag/brandbuilding-skills"
+  },
+  "plugins": [
+    {
+      "name": "brand-building-skills",
+      "description": "14 brand building skills for strategists, agency owners, and founders: brand strategy, naming, visual identity, brand voice, storytelling, positioning, messaging, audience definition, competitor analysis, brand audit, brand guidelines, brand launch, and rebranding",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/brand-context",
+        "./skills/brand-strategy",
+        "./skills/brand-naming",
+        "./skills/brand-identity",
+        "./skills/brand-voice",
+        "./skills/brand-story",
+        "./skills/brand-positioning",
+        "./skills/brand-messaging",
+        "./skills/brand-audit",
+        "./skills/brand-guidelines",
+        "./skills/target-audience",
+        "./skills/competitor-branding",
+        "./skills/brand-launch",
+        "./skills/rebranding"
+      ]
+    }
+  ]
+}
