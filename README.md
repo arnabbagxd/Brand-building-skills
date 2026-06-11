@@ -19,24 +19,40 @@ Skills are markdown files that give AI agents specialized knowledge and workflow
 Skills reference each other and build on shared context. The `brand-context` skill is the foundation — every other skill checks it first to understand the brand, audience, and positioning before doing anything.
 
 ```
-                        ┌──────────────────────────────────┐
-                        │           brand-context           │
-                        │   (read by all other skills first) │
-                        └──────────────┬───────────────────┘
-                                       │
-    ┌──────────────┬────────────┬──────┴──────┬──────────────┬──────────────┐
-    ▼              ▼            ▼             ▼              ▼              ▼
-┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌───────────┐ ┌──────────┐
-│ Strategy │ │ Identity │ │  Voice & │ │Audience &│ │  Launch & │ │  Audit & │
-│          │ │          │ │Messaging │ │Positioning│  Transform │ │ Standards│
-├──────────┤ ├──────────┤ ├──────────┤ ├──────────┤ ├───────────┤ ├──────────┤
-│brand-    │ │brand-    │ │brand-    │ │target-   │ │brand-     │ │brand-    │
-│strategy  │ │identity  │ │voice     │ │audience  │ │launch     │ │audit     │
-│brand-    │ │brand-    │ │brand-    │ │brand-    │ │rebranding │ │brand-    │
-│naming    │ │story     │ │messaging │ │positioning│ │           │ │guidelines│
-│          │ │          │ │          │ │competitor│ │           │ │          │
-│          │ │          │ │          │ │-branding │ │           │ │          │
-└──────────┘ └──────────┘ └──────────┘ └──────────┘ └───────────┘ └──────────┘
+                              ┌──────────────────────────────────┐
+                              │           brand-context           │
+                              │   (read by all other skills first) │
+                              └──────────────┬───────────────────┘
+                                             │
+   ┌──────────┬──────────┬──────────┬────────┴───┬──────────┬──────────┬──────────┐
+   ▼          ▼          ▼          ▼            ▼          ▼          ▼          ▼
+┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐
+│Strategy│ │Identity│ │ Voice &│ │Audience│ │Launch &│ │Audit & │ │Personal│ │Marketing│
+│        │ │        │ │Messaging│ │& Pos.  │ │Transform│ │Standards│ │& Brand │ │Channels│
+├────────┤ ├────────┤ ├────────┤ ├────────┤ ├────────┤ ├────────┤ ├────────┤ ├────────┤
+│brand-  │ │brand-  │ │brand-  │ │target- │ │brand-  │ │brand-  │ │personal│ │d2c-    │
+│strategy│ │identity│ │voice   │ │audience│ │launch  │ │audit   │ │-brand  │ │marketing│
+│brand-  │ │brand-  │ │brand-  │ │brand-  │ │rebrand-│ │brand-  │ │brand-  │ │b2b-    │
+│naming  │ │story   │ │messaging│ │position│ │ing     │ │guidelin│ │manifes-│ │brand-  │
+│brand-  │ │brand-  │ │        │ │competi-│ │        │ │es      │ │to      │ │marketin│
+│archit. │ │packag. │ │        │ │tor-    │ │        │ │brand-  │ │brand-  │ │brand-  │
+│        │ │        │ │        │ │branding│ │        │ │measure-│ │partner-│ │partner-│
+│        │ │        │ │        │ │        │ │        │ │ment    │ │ships   │ │ships   │
+└────────┘ └────────┘ └────────┘ └────────┘ └────────┘ └────────┘ └────────┘ └────────┘
+                                                                              │
+                                                              ┌───────────────┼───────────────┐
+                                                              ▼               ▼               ▼
+                                                          ┌────────┐     ┌────────┐     ┌────────┐
+                                                          │ Paid   │     │ Owned  │     │Content │
+                                                          │  Ads   │     │Channels│     │& Grow  │
+                                                          ├────────┤     ├────────┤     ├────────┤
+                                                          │meta-   │     │email-  │     │ugc-    │
+                                                          │ads     │     │market. │     │strategy│
+                                                          │google- │     │whatsapp│     │influenc│
+                                                          │ads     │     │-market.│     │er-     │
+                                                          │        │     │        │     │marketin│
+                                                          │        │     │aso     │     │        │
+                                                          └────────┘     └────────┘     └────────┘
 ```
 
 Skills cross-reference each other:
@@ -45,6 +61,11 @@ Skills cross-reference each other:
 - `brand-audit` → `rebranding` → `brand-launch`
 - `target-audience` → `brand-messaging`, `brand-voice`, `brand-positioning`
 - `competitor-branding` → `brand-positioning`, `brand-strategy`
+- `personal-brand` ↔ `b2b-brand-marketing` ↔ `brand-manifesto`
+- `d2c-marketing` ↔ `meta-ads` ↔ `google-ads` ↔ `email-marketing`
+- `ugc-strategy` ↔ `influencer-marketing` ↔ `d2c-marketing`
+- `brand-partnerships` ↔ `b2b-brand-marketing` ↔ `brand-strategy`
+- `aso` ↔ `d2c-marketing` ↔ `brand-messaging`
 
 ## Available Skills
 
