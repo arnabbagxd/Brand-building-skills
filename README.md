@@ -2,6 +2,12 @@
 
 A collection of AI agent skills focused on brand building services. Built for brand strategists, agency owners, and founders who want AI coding agents to help with brand strategy, naming, identity, voice, positioning, messaging, and launch. Works with Claude Code, Cursor, Windsurf, and any agent that supports the [Agent Skills spec](https://agentskills.io).
 
+## Install
+
+```bash
+npx skills add arnabbagxd/Brand-building-skills
+```
+
 **Contributions welcome!** Found a way to improve a skill or have a new one to add? Open a PR.
 
 ## What are Skills?
