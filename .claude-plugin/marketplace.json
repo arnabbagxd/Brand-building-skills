@@ -12,7 +12,7 @@
   "plugins": [
     {
       "name": "brand-building-skills",
-      "description": "14 brand building skills for strategists, agency owners, and founders: brand strategy, naming, visual identity, brand voice, storytelling, positioning, messaging, audience definition, competitor analysis, brand audit, brand guidelines, brand launch, and rebranding",
+      "description": "19 brand building skills for strategists, agency owners, and founders: brand strategy, naming, visual identity, brand voice, storytelling, positioning, messaging, audience definition, competitor analysis, brand audit, brand guidelines, brand launch, rebranding, personal brand, brand manifesto, brand architecture, brand measurement, and packaging",
       "source": "./",
       "strict": false,
       "skills": [
@@ -29,7 +29,12 @@
         "./skills/target-audience",
         "./skills/competitor-branding",
         "./skills/brand-launch",
-        "./skills/rebranding"
+        "./skills/rebranding",
+        "./skills/personal-brand",
+        "./skills/brand-manifesto",
+        "./skills/brand-architecture",
+        "./skills/brand-measurement",
+        "./skills/brand-packaging"
       ]
     }
   ]

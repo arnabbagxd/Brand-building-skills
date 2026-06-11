@@ -1,5 +1,16 @@
 # Versions
 
+## 1.1.0 — 2026-06-11
+
+### Skills Added
+- `personal-brand` — Personal branding strategy for founders, executives, and creators
+- `brand-manifesto` — Bold belief-driven brand declaration
+- `brand-architecture` — Multi-brand/sub-brand hierarchy and naming system
+- `brand-measurement` — KPIs, metrics, and brand health tracking
+- `brand-packaging` — Packaging design brief and unboxing experience
+
+---
+
 ## 1.0.0 — 2026-06-10
 
 Initial release.

@@ -65,6 +65,11 @@ Skills cross-reference each other:
 | [competitor-branding](skills/competitor-branding/) | Maps how competitors brand themselves to find gaps, patterns, and differentiation opportunities in the brand landscape. |
 | [brand-launch](skills/brand-launch/) | Plans the brand's public debut — launch strategy, pre-launch assets, launch day sequence, content plan, and post-launch momentum. |
 | [rebranding](skills/rebranding/) | Guides a brand through strategic transformation — diagnosis, equity audit, scope definition, transition narrative, and rollout plan. |
+| [personal-brand](skills/personal-brand/) | Build a personal brand strategy for founders, executives, and creators — positioning, point of view, platform strategy, content pillars, and 90-day launch plan. |
+| [brand-manifesto](skills/brand-manifesto/) | Write a bold, belief-driven manifesto that declares what the brand stands for, fights against, and exists to change. |
+| [brand-architecture](skills/brand-architecture/) | Define how multiple brands, sub-brands, and product lines relate — branded house, house of brands, endorsed, or hybrid model with naming system. |
+| [brand-measurement](skills/brand-measurement/) | Define KPIs, metrics, and tracking systems to measure brand health, awareness, perception, and equity over time. |
+| [brand-packaging](skills/brand-packaging/) | Create a packaging design brief — structure, visual direction, hierarchy, materials, and unboxing experience. |
 <!-- SKILLS:END -->
 
 ## Getting Started
