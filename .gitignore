@@ -3,7 +3,8 @@
 __MACOSX/
 *.zip
 node_modules/
-.claude/
+.claude/*
+!.claude/settings.json
 *.skill
 .agents/
 skills-lock.json
