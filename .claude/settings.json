@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "brand-building-skills": {
+      "source": {
+        "source": "github",
+        "repo": "avesmarketing/Brand-building-skills"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "brand-building-skills@brand-building-skills": true
+  }
+}
