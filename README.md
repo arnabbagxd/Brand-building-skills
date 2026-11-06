@@ -8,6 +8,12 @@ A collection of AI agent skills focused on brand building services. Built for br
 npx skills add arnabbagxd/brand-building-skills
 ```
 
+## Website
+
+The interactive introduction and searchable skill catalog live in [`docs/`](docs/). Preview locally with `python3 -m http.server 8000 --directory docs`, then open `http://localhost:8000`. To publish with GitHub Pages, set the Pages source to the `main` branch and `/docs` folder in repository settings.
+
+The catalog is generated from this README's skills table. After changing the table or adding a skill, run `python3 scripts/generate-site-data.py` and commit the updated `docs/skills-data.js`.
+
 **Contributions welcome!** Found a way to improve a skill or have a new one to add? Open a PR.
 
 ## What are Skills?
